@@ -1,0 +1,80 @@
+.empHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7px;
+  /* align-self: stretch; */
+  padding: 24px 32px;
+  /* margin-left: 20px; */
+
+  
+  /* flex: 1 0 0; */
+}
+
+.pizdablyat {
+  display: flex;
+  gap: 8px;
+}
+
+.peopleicon {
+  width: 32px;
+  height: 32px;
+}
+
+.empPanel {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  /* justify-content: center; */
+  /* align-items: center; */
+
+  /* flex: 1 0 0; */
+
+  /* align-self: stretch; */
+}
+
+.Word {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* flex: 1 0 0; */
+  /* align-self: stretch; */
+
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.empNumber {
+  display: flex;
+  align-items: center;
+
+  /* flex: 1 0 0; */
+
+
+  color: var(--text-silver, #B2B2B2);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.journal {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  /* flex: 1 0 0; */
+
+  overflow: hidden;
+  color: #8E8E8E;
+  text-overflow: ellipsis;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

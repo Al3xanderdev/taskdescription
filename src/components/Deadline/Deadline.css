@@ -1,0 +1,173 @@
+.DeadlineHeader {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  align-self: stretch;
+
+  padding: 24px 32px;
+}
+
+.DeadlineInnerHeader {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex: 1 0 0;
+}
+
+.DeadlineWord {
+  flex: 1 0 0;
+
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.GoToCalendar {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+
+  overflow: hidden;
+  color: #8E8E8E;
+  text-overflow: ellipsis;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  /* padding: 14px 24px; */
+}
+
+.DeadlineProgress {
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: row;
+  /* align-items: flex-start; */
+  align-items: center;
+
+  gap: 16px;
+  align-self: stretch;
+  padding: 24px 32px;
+
+  justify-content: space-between;
+}
+
+.DeadlineProgressHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.DeadlineWhatLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.bigNumber {
+  display: flex;
+  padding: 8px 14px;
+  align-items: center;
+  gap: 24px;
+
+  border-radius: 10px;
+  background: #F7F8F9;
+}
+
+.DaysLeft {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ProgressBar {
+  display: flex;
+  padding: 8px 14px;
+  align-items: center;
+  gap: 12px;
+
+  border-radius: 10px;
+  background: #F7F8F9;
+}
+
+.DayProgressBar {
+  display: flex;
+  justify-content: center;
+}
+
+.DeadlineDates {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  padding: 24px 32px;
+}
+
+.DeadlineCreateDate {
+  display: flex;
+  padding: 8px 14px;
+  align-items: center;
+  gap: 24px;
+  flex: 1 0 0;
+
+  border-radius: 10px;
+  background: #F7F8F9;
+}
+
+.DeadlineDeadlineDate {
+  display: flex;
+  padding: 8px 14px;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+
+  border-radius: 10px;
+  background: #F7F8F9;
+}
+
+.DeadlineDateInnerDiv {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.DeadlineDateWord {
+  color: var(--text-silver, #B2B2B2);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.DeadlineDateDate {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.DeadlineChange {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+
+  overflow: hidden;
+  color: #8E8E8E;
+  text-overflow: ellipsis;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

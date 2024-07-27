@@ -1,0 +1,54 @@
+.Tags {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  
+  padding: 24px 32px;
+}
+
+.TagsLeft {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex: 1 0 0;
+}
+
+.TagsLeftName {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.TagsRight {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 10px 20px;
+  flex: 1 0 0;
+  flex-wrap: wrap;
+}
+
+.TagsButton {
+  display: flex;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+
+  border-radius: 10px;
+  background: var(--btn-non-action, #F1F1F1);
+}
+
+.TagsButtonName {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

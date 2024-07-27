@@ -1,0 +1,89 @@
+.SP {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  
+  padding: 24px 32px;
+}
+
+.SPPanel {
+  display: flex;
+  padding: 18px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+
+  background: #F7F8F9;
+}
+
+.SPPanelHeader {
+  display: flex;
+  height: 32px;
+  align-items: center;
+  gap: 7px;
+  align-self: stretch;
+}
+
+.SPPanelWord {
+  flex: 1 0 0;
+
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.SPPanelFooter {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.SPPanelFooterOptionChosen {
+  display: flex;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+
+  border-radius: 10px;
+  background: #000;
+}
+
+.SPPanelFooterOptionNameChosen {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.SPPanelFooterOption {
+  display: flex;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+
+  border-radius: 10px;
+  background: var(--btn-non-action, #F1F1F1);
+}
+
+.SPPanelFooterOptionName {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

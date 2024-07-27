@@ -1,0 +1,112 @@
+.respHeader {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  align-self: stretch;
+  padding: 24px 32px;
+  /* margin-left: 20px; */
+}
+
+.respList {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 20px;
+  align-self: stretch;
+}
+
+.respPerson {
+  display: flex;
+  width: 250px;
+  padding: 6px 12px;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 9px;
+  background: #F7F8F9;
+}
+
+.personPic {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+
+  border-radius: 32px;
+  /* background: url(<path-to-image>) lightgray -18.81px 0px / 178.397% 100% no-repeat; */
+}
+
+.personNameAndPlace {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6px;
+  flex: 1 0 0;
+}
+
+.personName {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  align-self: stretch;
+
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.personPlace {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  align-self: stretch;
+
+  overflow: hidden;
+  color: #8E8E8E;
+  text-overflow: ellipsis;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.peopleicon {
+  width: 32px;
+  height: 32px;
+}
+
+.Word {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 0;
+  align-self: stretch;
+
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.journal {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+
+  overflow: hidden;
+  color: #8E8E8E;
+  text-overflow: ellipsis;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

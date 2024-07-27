@@ -1,0 +1,355 @@
+/* Модальное окно-этапы/Список этапов */
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 32px;
+
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+
+  font-family: Roboto;
+}
+
+/* Frame 6323 */
+
+.headerpanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 33px;
+  background-color: #f9f9f9;
+  /* color: aqua; */
+
+  width: 1920px;
+  height: 100px;
+}
+
+
+.hz_che_eto {
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.header-name {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.search-bar {
+  margin-left: 20px;
+}
+
+
+.searchbar-and-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: Roboto;
+}
+
+.StatusFilterButton {
+  display: flex;
+  padding: 8px 10px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 4px;
+  background: #F7F8F9;
+  border-width: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.PriorityFilterButton {
+  display: flex;
+  padding: 8px 10px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 4px;
+  background: #F7F8F9;
+  border-width: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.DeadlineButton {
+  display: flex;
+  padding: 8px 10px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 4px;
+  background: #F7F8F9;
+  border-width: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* .CardList {
+  background-color: white;
+  padding: 27px 4% 0 4%;
+  height: fit-content;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 20px;
+} */
+
+.CardList {
+  margin-top: 14px;
+  display: flex;
+  padding: 14px 20px;
+  align-items: center;
+  align-content: center;
+  gap: 32px;
+  align-self: stretch;
+  flex-wrap: wrap;
+
+  border-radius: 10px;
+  background: #F7F8F9;
+}
+
+.Card {
+  /* width: 17%; */
+
+  width: 300px;
+
+  /* height: 85px; */
+
+  /* min-width: 100px; */
+
+  /* padding: 20px 20px; */
+  padding: 14px;
+  border-radius: 16px;
+  background-color: #F7F8F9;
+  /* color: white; */
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  gap: 8px;
+
+  justify-content: center;
+
+    /* gap: 10px; */
+}
+
+.Card_PeopleStatusPriority {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.Card_People {
+  width: 100px;
+  margin-left: 0;
+}
+
+.Card_StatusPriority {
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0px;
+  gap: 8px;
+  margin-right: 0;
+}
+
+.Card_Status {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 4px 10px;
+  gap: 10px;
+
+  /* width: 100px; */
+  height: 22px;
+
+  background: #000000;
+  color: white;
+  border-radius: 5px;
+}
+
+.Card_Priority {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  padding: 4px 10px;
+  gap: 10px;
+
+  /* width: 71px; */
+  height: 22px;
+
+  background: #000000;
+  color: white;
+  border-radius: 5px;
+}
+
+.Card_Name {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Card_NameAndPercentage {
+  display: flex;
+  flex-direction: column;
+}
+
+.Card_ProgressAndDeadline {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.Card_Progress {
+  display: flex;
+  gap: 10px;
+}
+
+.Card_ProgressPercentage {
+  flex: 1;
+  align-content: center;
+
+  color: #B2B2B2;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Card_ProgressBar {
+  flex: 1;
+  align-content: center;
+}
+
+.Card_Deadline {
+  display: flex;
+  gap: 10px;
+}
+
+.Card_DeadlineWord {
+  font-size: 13px;
+  align-content: center;
+}
+
+.Card_DeadlineDate {
+  font-size: 15px;
+  align-content: center;
+}
+
+.showMore {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 20px;
+  background: #F7F8F9;
+}
+
+.showMoreText {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+
+  overflow: hidden;
+  color: #6A6A6A;
+  text-overflow: ellipsis;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Card_Date {
+  /* margin: 0; */
+  /* order: 2; */
+  text-align: right;
+  overflow: hidden;
+}
+
+.filter-button{
+  display: flex;
+  position: relative;
+  /* width: 140px; */
+  justify-content: center;
+  border: 1px solid transparent;
+  align-self: stretch;
+
+  display: flex;
+  padding: 8px 10px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 4px;
+  background: #F7F8F9;
+  border-width: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.filter-title{
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.filter-container {
+  position: absolute;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-radius: 5px;
+  padding: 12px 20px;
+  display: block;
+  width: 140px;
+  background: #F1F1F1;
+  font-size: 16px;
+  cursor: default;
+  top: 55px;
+  left: -18px; 
+}
+
+.filter-item{
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.filter-item:hover{
+  background: rgba(0, 0, 0, 0.123);
+}
